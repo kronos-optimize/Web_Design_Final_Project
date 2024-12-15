@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Toys</title>
+        <link rel="stylesheet" href="items.css">
+        <link rel="stylesheet" href="heading.css">
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="heading">
+                <a href="welcome.html">
+                    <div class="logo">
+                        <img src="assets/paws.avif">
+                        <h1>Huzi</h1>
+                    </div>
+                </a>
+
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <div class="head-mid">
+                    <a href="welcome.html"><p>Home</p></a>
+                    <div class="dropdown">
+                        <p class="dropdown-toggle">Categories</p>
+                        <div class="dropdown-menu">
+                            <a href="toys.html">Toys</a>
+                            <a href="materials.html">Materials</a>
+                            <a href="food.html">Food</a>
+                        </div>
+                    </div>
+                    <a href="about.html"><p>About Us</p></a>
+                    <a href="blog.html"><p>Blog</p></a>
+                </div>
+                <div class="head-end">
+                    <a href="login.html"><img src="assets/personal.png" alt="Login"></a>
+                    <div class="search-container">
+                        <img src="assets/search.png" class="search-toggle">
+                        <div class="search-dropdown">
+                            <form action="search-results.html" method="get">
+                                <select name="category" required>
+                                    <option value="">All Categories</option>
+                                    <option value="toys">Toys</option>
+                                    <option value="food">Food</option>
+                                    <option value="materials">Materials</option>
+                                </select>
+                                <input type="text" name="query" placeholder="Search products..." list="products" required>
+                                <datalist id="products">
+                                    <option value="Me-O Cat Food">
+                                    <option value="Whiskas Junior">
+                                    <option value="Pedigree Dog Food">
+                                    <option value="Royal Canin">
+                                    <option value="Silicone Bone">
+                                    <option value="Cat Scratching Ball">
+                                    <option value="Dog Rope Toy">
+                                    <option value="Silicone Litter Scoop">
+                                    <option value="Rinseless Shampoo">
+                                    <option value="Cat Paw Food Bowl">
+                                </datalist>
+                                <button type="submit" class="search-btn">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <a href="cart.html"><img src="assets/cart.png"></a>
+                </div>
+            </nav>
+            <div class="title">
+                <h2>Toys</h2>
+                <p>Handpicked with Quality and Care - Because Your Pet Deserves the Best!</p>
+            </div>
+            <div class="items">
+                <div class="cell">
+                    <img src="assets/toys/bone.jpeg" width="100%">
+                    <h3>Silicone Bone</h3>
+                    <p>Top 1 best selling product!</p>
+                    <p id="black">Formulated with soft silicone and cutely design suitable for every dog.</p>
+                    <div class="cart">
+                        <h3>$3.00</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/toys/cat_ball.jpg" width="100%">
+                    <h3>Cat Scratching Ball</h3>
+                    <p>Top 2 best selling product!</p>
+                    <p id="black">Designed with a ball of rope and wooden stander so your cat can easily play with it.</p>
+                    <div class="cart">
+                        <h3>$3.00</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/toys/rope.jpeg" width="100%">
+                    <h3>Dog Rope Toy</h3>
+                    <p>Product on trending!</p>
+                    <p id="black">The rope is really soft so it will not affect your dog's teeth while playing with it. Let's get one for your lovely doggy!</p>
+                    <div class="cart">
+                        <h3>$2.00</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/toys/tennis.jpeg" width="100%">
+                    <h3>Lilac Tennis Ball</h3>
+                    <p>Sold Out!</p>
+                    <p id="black">Designed with very cutesy color and soft texture of the ball suitable for everyday use for dog.</p>
+                    <div class="cart">
+                        <h3>$5.90</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/toys/ball.jpeg" width="100%">
+                    <h3>Electronic Stick Toy</h3>
+                    <p>Top 1 best selling product!</p>
+                    <p id="black">Get your cat an exciting toy so it can enjoy the moments while you are busy and do not have time to play with your cat.</p>
+                    <div class="cart">
+                        <h3>$24.50</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/toys/fish.jpeg" width="100%">
+                    <h3>Realistic Fish Toy</h3>
+                    <p>50% of users liked this product!</p>
+                    <p id="black">The design looks so real, and the toy is so soft, making it the best option for your pet.</p>
+                    <div class="cart">
+                        <h3>$6.00</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>

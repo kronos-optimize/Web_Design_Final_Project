@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Materials</title>
+        <link rel="stylesheet" href="items.css">
+        <link rel="stylesheet" href="heading.css">
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="heading">
+                <a href="welcome.html">
+                    <div class="logo">
+                        <img src="assets/paws.avif">
+                        <h1>Huzi</h1>
+                    </div>
+                </a>
+
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <div class="head-mid">
+                    <a href="welcome.html"><p>Home</p></a>
+                    <div class="dropdown">
+                        <p class="dropdown-toggle">Categories</p>
+                        <div class="dropdown-menu">
+                            <a href="toys.html">Toys</a>
+                            <a href="materials.html">Materials</a>
+                            <a href="food.html">Food</a>
+                        </div>
+                    </div>
+                    <a href="about.html"><p>About Us</p></a>
+                    <a href="blog.html"><p>Blog</p></a>
+                </div>
+                <div class="head-end">
+                    <a href="login.html"><img src="assets/personal.png" alt="Login"></a>
+                    <div class="search-container">
+                        <img src="assets/search.png" class="search-toggle">
+                        <div class="search-dropdown">
+                            <form action="search-results.html" method="get">
+                                <select name="category" required>
+                                    <option value="">All Categories</option>
+                                    <option value="toys">Toys</option>
+                                    <option value="food">Food</option>
+                                    <option value="materials">Materials</option>
+                                </select>
+                                <input type="text" name="query" placeholder="Search products..." list="products" required>
+                                <datalist id="products">
+                                    <option value="Me-O Cat Food">
+                                    <option value="Whiskas Junior">
+                                    <option value="Pedigree Dog Food">
+                                    <option value="Royal Canin">
+                                    <option value="Silicone Bone">
+                                    <option value="Cat Scratching Ball">
+                                    <option value="Dog Rope Toy">
+                                    <option value="Silicone Litter Scoop">
+                                    <option value="Rinseless Shampoo">
+                                    <option value="Cat Paw Food Bowl">
+                                </datalist>
+                                <button type="submit" class="search-btn">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <a href="cart.html"><img src="assets/cart.png"></a>
+                </div>
+            </nav>
+            <div class="title">
+                <h2>Materials</h2>
+                <p>Handpicked with Quality and Care - Because Your Pet Deserves the Best!</p>
+            </div>
+            <div class="items">
+                <div class="cell">
+                    <img src="assets/material/shovel.jpeg" width="100%">
+                    <h3>Silicone Litter Scoop</h3>
+                    <p>Top 1 best selling product!</p>
+                    <p id="black">Easy, fast and long-lasting product. We have 4 different colors, so you can choose your favorite.</p>
+                    <div class="cart">
+                        <h3>$3.00</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/material/lemon_shampoo.jpeg" width="100%">
+                    <h3>Rinseless Shampoo</h3>
+                    <p>Top 2 best selling product!</p>
+                    <p id="black">Formulated with natural ingredients safe for dog's skin.</p>
+                    <div class="cart">
+                        <h3>$10.99</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/material/toothpaste.jpeg" width="100%">
+                    <h3>Trixie Toothpaste & Brush</h3>
+                    <p>Top Recommended Set!</p>
+                    <p id="black">Very gentle product and very safe to use, suitable for all cats and dogs.</p>
+                    <div class="cart">
+                        <h3>$4.00</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/material/shirt.jpeg" width="100%">
+                    <h3>Strawberry Long-Shirt</h3>
+                    <p>Sold Out!</p>
+                    <p id="black">Wool shirt and very soft. It doesn't make your pet uncomfortable while wearing it.</p>
+                    <div class="cart">
+                        <h3>$2.90</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/material/plate.jpeg" width="100%">
+                    <h3>Cat Paw Food Bowl</h3>
+                    <p>Top 1 best selling product!</p>
+                    <p id="black">Very cutesy design and long-lasting product that does not break easily.</p>
+                    <div class="cart">
+                        <h3>$5.50</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/material/house.jpeg" width="100%">
+                    <h3>Luxury Wooden Dog House</h3>
+                    <p>50% of users liked this product!</p>
+                    <p id="black">A DIY house that can be moved anywhere inside your house without having to worry that it will break.</p>
+                    <div class="cart">
+                        <h3>$99.90</h3>
+                        <button>ADD TO CART <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>

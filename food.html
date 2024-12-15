@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food</title>
+        <link rel="stylesheet" href="items.css">
+        <link rel="stylesheet" href="heading.css">
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="heading">
+                <a href="welcome.html">
+                    <div class="logo">
+                        <img src="assets/paws.avif">
+                        <h1>Huzi</h1>
+                    </div>
+                </a>
+                
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <div class="head-mid">
+                    <a href="welcome.html"><p>Home</p></a>
+                    <div class="dropdown">
+                        <p class="dropdown-toggle">Categories</p>
+                        <div class="dropdown-menu">
+                            <a href="toys.html">Toys</a>
+                            <a href="materials.html">Materials</a>
+                            <a href="food.html">Food</a>
+                        </div>
+                    </div>
+                    <a href="about.html"><p>About Us</p></a>
+                    <a href="blog.html"><p>Blog</p></a>
+                </div>
+                <div class="head-end">
+                    <a href="login.html"><img src="assets/personal.png" alt="Login"></a>
+                    <div class="search-container">
+                        <img src="assets/search.png" class="search-toggle">
+                        <div class="search-dropdown">
+                            <form action="search-results.html" method="get">
+                                <select name="category" required>
+                                    <option value="">All Categories</option>
+                                    <option value="toys">Toys</option>
+                                    <option value="food">Food</option>
+                                    <option value="materials">Materials</option>
+                                </select>
+                                <input type="text" name="query" placeholder="Search products..." list="products" required>
+                                <datalist id="products">
+                                    <option value="Me-O Cat Food">
+                                    <option value="Whiskas Junior">
+                                    <option value="Pedigree Dog Food">
+                                    <option value="Royal Canin">
+                                    <option value="Silicone Bone">
+                                    <option value="Cat Scratching Ball">
+                                    <option value="Dog Rope Toy">
+                                    <option value="Silicone Litter Scoop">
+                                    <option value="Rinseless Shampoo">
+                                    <option value="Cat Paw Food Bowl">
+                                </datalist>
+                                <button type="submit" class="search-btn">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <a href="cart.html"><img src="assets/cart.png"></a>
+                </div>
+            </nav>
+            <div class="title">
+                <h2>Foods</h2>
+                <p>Handpicked with Quality and Care - Because Your Pet Deserves the Best!</p>
+            </div>
+            <div class="items">
+                <div class="cell">
+                    <img src="assets/food/me_o.jpeg" width="100%">
+                    <h3>Me-O Cat Food</h3>
+                    <p>Top 1 best selling product!</p>
+                    <p id="black">Formulated with essential nutrients, including proteins, vitamins, minerals to support overall cat health.</p>
+                    <div class="cart">
+                        <h3>$12.00</h3>
+                        <button>
+                            <p>ADD TO CART</p>
+                            <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/food/cat_food.jpeg" width="100%">
+                    <h3>Whiskas Junior Cat Food</h3>
+                    <p>Top 2 best selling product!</p>
+                    <p id="black">Balanced nutrition tailored to different life stages and offers a wide variety of flavors and textures.</p>
+                    <div class="cart">
+                        <h3>$15.99</h3>
+                        <button>
+                            <p>ADD TO CART</p>
+                            <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/food/perro.jpeg" width="100%">
+                    <h3>Pedigree Dog Food</h3>
+                    <p>Product on trending!</p>
+                    <p id="black">Affordable price with the best quality suitable for all dogs. The best choice for your lovely pet.</p>
+                    <div class="cart">
+                        <h3>$10.00</h3>
+                        <button>
+                            <p>ADD TO CART</p>
+                            <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/food/idk.jpeg" width="100%">
+                    <h3>Royal Canin Cat Food</h3>
+                    <p>Sold Out!</p>
+                    <p id="black">Formulated with essential nutrients and suitable for your little kittens.</p>
+                    <div class="cart">
+                        <h3>$16.90</h3>
+                        <button>
+                            <p>ADD TO CART</p>
+                            <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/food/food.jpeg" width="100%">
+                    <h3>Woofin' Good! Dog Food</h3>
+                    <p>Top 1 best selling product!</p>
+                    <p id="black">3 in 1 include beef, rice & vegetables. Best option for your dog.</p>
+                    <div class="cart">
+                        <h3>$12.50</h3>
+                        <button>
+                            <p>ADD TO CART</p>
+                            <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+                <div class="cell">
+                    <img src="assets/food/dog_food.jpeg" width="100%">
+                    <h3>Edgard Cooper</h3>
+                    <p>50% of users liked this product!</p>
+                    <p id="black">Get your pet something healthy so choose this product which is formulated with vegetables.</p>
+                    <div class="cart">
+                        <h3>$6.00</h3>
+                        <button>
+                            <p>ADD TO CART</p>
+                            <img src="assets/white_cart.png" width="25%"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
